@@ -1,0 +1,45 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+.app {
+  display: flex;
+  justify-content: start stretch;
+  flex-direction: column;
+  gap: 20px;
+  box-sizing: border-box;
+  background-color: skyblue;
+  height: 100vh;
+  padding: 20px;
+}
+
+.app__buttons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  padding: 20px;
+  background-color: slategray;
+}
+
+.btn {
+  padding: 15px;
+  cursor: pointer;
+}
+
+.app__main {
+  display: flex;
+  flex-direction: row;
+  justify-content: stretch;
+  gap: 10px;
+  justify-content: center stretch;
+}
+
+.app__main--a,
+.app__main--b {
+  flex: 1;
+  justify-content: center;
+  background-color: slategray;
+  padding: 20px;
+}
